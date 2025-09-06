@@ -1,0 +1,143 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #444;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 50px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #c95c37; /* A color that might match the Bakpia branding */
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fce7db; /* A light, warm background color */
+    padding: 50px 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section .content {
+    max-width: 50%;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    color: #8c4524;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #c95c37;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #a8482d;
+}
+
+.bakpia-image {
+    position: relative;
+    width: 45%;
+    text-align: right;
+}
+
+.bakpia-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50% 0 0 50%;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section */
+.about-bakpia-section {
+    background-color: #c95c37; /* A reddish color, similar to the image */
+    color: #fff;
+    text-align: center;
+    padding: 50px 5%;
+}
+
+.about-bakpia-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-bakpia-section p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-item {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.feature-item i {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
